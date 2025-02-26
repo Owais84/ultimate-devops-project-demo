@@ -13,6 +13,8 @@ To build the service binary, run:
 
 ```sh
 export PRODUCT_CATALOG_PORT=<any-unique-port>
+sudo apt install golang-go
+go --version
 go build -o product-catalog . 
 ```
 
